@@ -1,0 +1,8 @@
+*.class
+*/bin/*
+run-configs/jrebel/jrebel.info
+run-configs/jrebel/javarebel.stats
+*/WEB-INF/classes/*
+*.lic
+/*/target/*
+

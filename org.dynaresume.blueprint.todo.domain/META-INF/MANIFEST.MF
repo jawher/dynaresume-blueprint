@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Domain
+Bundle-SymbolicName: org.dynaresume.blueprint.todo.domain
+Bundle-Version: 1.0.0
+Bundle-Vendor: Jawher
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.dynaresume.blueprint.todo.domain

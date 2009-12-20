@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Impl
+Bundle-SymbolicName: org.dynaresume.blueprint.todo.service.impl
+Bundle-Version: 1.0.0
+Bundle-Vendor: Jawher
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.aopalliance.aop;version="1.0.0",
+ org.dynaresume.blueprint.todo.domain,
+ org.dynaresume.blueprint.todo.service,
+ org.neo4j.api.core;version="1.0.0.b10",
+ org.springframework.aop;version="2.5.6.A",
+ org.springframework.aop.framework;version="2.5.6.A",
+ org.springframework.transaction;version="2.5.6.A",
+ org.springframework.transaction.annotation;version="2.5.6.A"

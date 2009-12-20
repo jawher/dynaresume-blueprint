@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/17/trunk/infrastructure/org.dynaresume.config.log4j
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/13/trunk/infrastructure/org.dynaresume.config.log4j/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/13/trunk/infrastructure/org.dynaresume.config.log4j/.project
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/13/trunk/infrastructure/org.dynaresume.config.log4j/build.properties
+END

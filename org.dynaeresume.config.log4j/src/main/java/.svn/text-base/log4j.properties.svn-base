@@ -1,0 +1,14 @@
+log4j.rootLogger=info, con 
+log4j.appender.con=org.apache.log4j.ConsoleAppender 
+log4j.appender.con.layout=org.apache.log4j.PatternLayout 
+log4j.appender.con.layout.ConversionPattern=%-4r [%t] %-5p %c %x - %m%n
+log4j.category.org.springframework.osgi.web.deployer=debug 
+log4j.category.org.apache.commons.digester=error
+log4j.category.org.springframework=warn
+log4j.category.org.hibernate.ejb=debug
+log4j.category.org.hibernate.ejb.packaging=error
+log4j.appender.file=org.apache.log4j.FileAppender 
+log4j.appender.file.layout=org.apache.log4j.PatternLayout 
+log4j.appender.file.layout.ConversionPattern=%5p [%t] (%F\:%L) - %m%n 
+log4j.appender.file.File=c:/devtools/ssosgi.log 
+log4j.appender.file.append=false

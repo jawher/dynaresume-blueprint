@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Neo4j
+Bundle-SymbolicName: org.dynaresume.blueprint.neo4j
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.commons.logging;version="1.1.1",
+ org.neo4j.api.core;version="1.0.0.b10",
+ org.neo4j.util.shell;version="1.0.0.b10",
+ org.slf4j;version="1.5.6",
+ org.springframework.beans.factory;version="2.5.6.A",
+ org.springframework.core;version="2.5.6.A",
+ org.springframework.transaction;version="2.5.6.A",
+ org.springframework.transaction.support;version="2.5.6.A"
