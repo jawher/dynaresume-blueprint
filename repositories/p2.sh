@@ -6,11 +6,11 @@ REPODIR=`cd $REPO; pwd`
 /home/djo/java/ide/eclipse/eclipse-rcp-galileo-SR1/eclipse \
  -application org.eclipse.equinox.p2.metadata.generator.EclipseGenerator \
  -nosplash \
- -updateSite "$REPODIR" \
- -site "file://$REPODIR/site.xml" \
+ -source "$REPODIR/plugins" \
  -metadataRepository "file://$REPODIR" \
  -metadataRepositoryName "$REPO" \
  -artifactRepository "file://$REPODIR" \
  -artifactRepositoryName "$REPO" \
- -noDefaultIUs \
- -vmargs -Xmx512m
+ -compress \
+ -vmargs -Xmx512m \
+
