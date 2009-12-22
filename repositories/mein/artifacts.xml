@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='mein' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.compressed' value='false'/>
+    <property name='p2.timestamp' value='1261351009072'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='34'>
+    <artifact classifier='osgi.bundle' id='com.springsource.net.sf.cglib' version='2.1.3'>
+      <properties size='4'>
+        <property name='artifact.size' value='328797'/>
+        <property name='download.size' value='328797'/>
+        <property name='download.md5' value='8ffd1537ad8273cc140d279891513927'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.osgi.jetty.web.extender.fragment.osgi' version='1.0.1'>
+      <properties size='4'>
+        <property name='artifact.size' value='3765'/>
+        <property name='download.size' value='3765'/>
+        <property name='download.md5' value='d70f49e794e1c44314deea7cd95de040'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.mortbay.jetty.server' version='6.1.9'>
+      <properties size='4'>
+        <property name='artifact.size' value='501820'/>
+        <property name='download.size' value='501820'/>
+        <property name='download.md5' value='a9cf2db07b46bee9ca793bc791f720f8'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.apache.commons.logging' version='1.1.1'>
+      <properties size='4'>
+        <property name='artifact.size' value='61464'/>
+        <property name='download.size' value='61464'/>
+        <property name='download.md5' value='8c9b8640b3b3821b8260294026c3864f'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.javax.xml.stream' version='1.0.1'>
+      <properties size='4'>
+        <property name='artifact.size' value='26729'/>
+        <property name='download.size' value='26729'/>
+        <property name='download.md5' value='8f566ff91416aedd8466d199dd0a6d80'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.5.1.R35x_v20090827'>
+      <properties size='4'>
+        <property name='artifact.size' value='1125860'/>
+        <property name='download.size' value='1125860'/>
+        <property name='download.md5' value='4ff3139d4b658a7f2ee6ddafa18aba89'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.aopalliance' version='1.0.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='4615'/>
+        <property name='download.size' value='4615'/>
+        <property name='download.md5' value='325a86164b9a6ebcaf067e7c1cbc2900'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.neo4j.neo' version='1.0.0.b10'>
+      <properties size='4'>
+        <property name='artifact.size' value='458083'/>
+        <property name='download.size' value='458083'/>
+        <property name='download.md5' value='754791ef99e352c871901196afc69022'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.transaction' version='2.5.6.SEC01'>
+      <properties size='4'>
+        <property name='artifact.size' value='231173'/>
+        <property name='download.size' value='231173'/>
+        <property name='download.md5' value='d3823f3cc0feeb18a6e89a1ff833a08e'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.osgi.web' version='1.2.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='69595'/>
+        <property name='download.size' value='69595'/>
+        <property name='download.md5' value='847d05e886c1ced4d89704786f43257a'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.neo4j.shell' version='1.0.0.b10'>
+      <properties size='4'>
+        <property name='artifact.size' value='101423'/>
+        <property name='download.size' value='101423'/>
+        <property name='download.md5' value='d13c5cf4ca4032a8af98268203f5a369'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.osgi.jetty.start.osgi' version='1.0.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='11808'/>
+        <property name='download.size' value='11808'/>
+        <property name='download.md5' value='d26adf40437a67f1012b6282d49cfa2b'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.javax.annotation' version='1.0.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='6195'/>
+        <property name='download.size' value='6195'/>
+        <property name='download.md5' value='bfc4a24725c9b625dfc20a5a982d782a'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.apache.commons.collections' version='3.2.1'>
+      <properties size='4'>
+        <property name='artifact.size' value='582765'/>
+        <property name='download.size' value='582765'/>
+        <property name='download.md5' value='410afbac5991094056dd13f94c14e902'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.osgi.extender' version='1.2.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='117407'/>
+        <property name='download.size' value='117407'/>
+        <property name='download.md5' value='c400a49d91539b6218b2d685757bff32'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.web.servlet' version='2.5.6.SEC01'>
+      <properties size='4'>
+        <property name='artifact.size' value='402348'/>
+        <property name='download.size' value='402348'/>
+        <property name='download.md5' value='843c40ce4f66dc53e6fa635aff914933'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.slf4j.log4j' version='1.5.6'>
+      <properties size='4'>
+        <property name='artifact.size' value='9908'/>
+        <property name='download.size' value='9908'/>
+        <property name='download.md5' value='b6c266d2d4f001e0c0fb04e183f1d619'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.security.core' version='2.0.5.RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='769300'/>
+        <property name='download.size' value='769300'/>
+        <property name='download.md5' value='e9b25828270c6abcf5b821b4321b4445'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.mortbay.util' version='6.1.9'>
+      <properties size='4'>
+        <property name='artifact.size' value='161740'/>
+        <property name='download.size' value='161740'/>
+        <property name='download.md5' value='9b0b3ac38311d008232497f7452d224a'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.apache.commons.codec' version='1.4.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='58734'/>
+        <property name='download.size' value='58734'/>
+        <property name='download.md5' value='d70c494e3917b41ea1af05684a14bb0a'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.osgi.io' version='1.2.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='35842'/>
+        <property name='download.size' value='35842'/>
+        <property name='download.md5' value='792230051f7ce88bfc335b2c6c43b5d5'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.aop' version='2.5.6.SEC01'>
+      <properties size='4'>
+        <property name='artifact.size' value='325755'/>
+        <property name='download.size' value='325755'/>
+        <property name='download.md5' value='dce18b5792f17eff6fcd00d8b0cb52e7'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.beans' version='2.5.6.SEC01'>
+      <properties size='4'>
+        <property name='artifact.size' value='488068'/>
+        <property name='download.size' value='488068'/>
+        <property name='download.md5' value='e63922937d38dbd1885659c5a9d170a5'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.org.apache.log4j' version='1.2.15'>
+      <properties size='4'>
+        <property name='artifact.size' value='396713'/>
+        <property name='download.size' value='396713'/>
+        <property name='download.md5' value='89b6014519e812812fa6ebde343ee94d'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.security.annotation' version='2.0.5.RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='7731'/>
+        <property name='download.size' value='7731'/>
+        <property name='download.md5' value='b5cc970b96318df4efb0346bacd06fe4'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.slf4j.api' version='1.5.6'>
+      <properties size='4'>
+        <property name='artifact.size' value='22769'/>
+        <property name='download.size' value='22769'/>
+        <property name='download.md5' value='2c7867187faacb36098661583645e712'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.core' version='2.5.6.SEC01'>
+      <properties size='4'>
+        <property name='artifact.size' value='285603'/>
+        <property name='download.size' value='285603'/>
+        <property name='download.md5' value='cbf5307fcbec38c4bb0fe64db680715f'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.slf4j.org.apache.commons.logging' version='1.5.6'>
+      <properties size='4'>
+        <property name='artifact.size' value='17003'/>
+        <property name='download.size' value='17003'/>
+        <property name='download.md5' value='a0e1a6bf5f985676a98753a7a8da7b46'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.javax.transaction' version='1.1.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='15518'/>
+        <property name='download.size' value='15518'/>
+        <property name='download.md5' value='59c452da9389243332eae795736ee321'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.web' version='2.5.6.SEC01'>
+      <properties size='4'>
+        <property name='artifact.size' value='194585'/>
+        <property name='download.size' value='194585'/>
+        <property name='download.md5' value='042b8195b45e7a61c017e8304b3c6dd1'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.context' version='2.5.6.SEC01'>
+      <properties size='4'>
+        <property name='artifact.size' value='476894'/>
+        <property name='download.size' value='476894'/>
+        <property name='download.md5' value='fc87e3ecd8faa9306fe3657955e35315'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.osgi.core' version='1.2.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='360791'/>
+        <property name='download.size' value='360791'/>
+        <property name='download.md5' value='6b87f90cdba5cd5df399ff083da472d1'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.springframework.osgi.web.extender' version='1.2.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='41608'/>
+        <property name='download.size' value='41608'/>
+        <property name='download.md5' value='f7e307b770518870e28e9c7a6297ccf7'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.springsource.javax.servlet' version='2.5.0'>
+      <properties size='4'>
+        <property name='artifact.size' value='89582'/>
+        <property name='download.size' value='89582'/>
+        <property name='download.md5' value='44c260e4330948912bad375c81a3a4f4'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
